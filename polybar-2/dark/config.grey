@@ -204,7 +204,7 @@ label-song-ellipsis = true
 
 [module/pkg]
 type = custom/script
-exec = /home/angus/.config/polybar/polybar-2/script/updates.sh
+exec = ~/.config/polybar/polybar-2/script/updates.sh
 format-background = ${color.shade7}
 format-padding = 2
 tail = true
@@ -272,7 +272,7 @@ ramp-volume-6 = 墳
 
 [module/network]
 type = custom/script
-exec = /home/angus/.config/polybar/polybar-2/script/check-network
+exec = ~/.config/polybar/polybar-2/script/check-network
 format-background = ${color.shade4}
 format-padding = 2
 click-left = networkmanager_dmenu &
